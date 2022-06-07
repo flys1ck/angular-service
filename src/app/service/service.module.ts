@@ -10,4 +10,4 @@ const ROUTES: Routes = [{ path: '', component: ServiceDashboardComponent }];
   imports: [CommonModule, RouterModule.forChild(ROUTES)],
   exports: [ServiceDashboardComponent],
 })
-export class ServiceDashboardModule {}
+export class ServiceModule {}
